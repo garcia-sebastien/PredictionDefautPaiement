@@ -1,0 +1,123 @@
+,Table,Row,Description,Special
+1,data_payment_default.csv,SK_ID_CURR,ID of loan in our sample,
+2,data_payment_default.csv,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)",
+5,data_payment_default.csv,NAME_CONTRACT_TYPE,Identification if loan is cash or revolving,
+6,data_payment_default.csv,CODE_GENDER,Gender of the client,
+7,data_payment_default.csv,FLAG_OWN_CAR,Flag if the client owns a car,
+8,data_payment_default.csv,FLAG_OWN_REALTY,Flag if client owns a house or flat,
+9,data_payment_default.csv,CNT_CHILDREN,Number of children the client has,
+10,data_payment_default.csv,AMT_INCOME_TOTAL,Income of the client,
+11,data_payment_default.csv,AMT_CREDIT,Credit amount of the loan,
+12,data_payment_default.csv,AMT_ANNUITY,Loan annuity,
+13,data_payment_default.csv,AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given,
+14,data_payment_default.csv,NAME_TYPE_SUITE,Who was accompanying client when he was applying for the loan,
+15,data_payment_default.csv,NAME_INCOME_TYPE,"Clients income type (businessman, working, maternity leave,…)",
+16,data_payment_default.csv,NAME_EDUCATION_TYPE,Level of highest education the client achieved,
+17,data_payment_default.csv,NAME_FAMILY_STATUS,Family status of the client,
+18,data_payment_default.csv,NAME_HOUSING_TYPE,"What is the housing situation of the client (renting, living with parents, ...)",
+19,data_payment_default.csv,REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region),normalized 
+20,data_payment_default.csv,DAYS_BIRTH,Client's age in days at the time of application,time only relative to the application
+21,data_payment_default.csv,DAYS_EMPLOYED,How many days before the application the person started current employment,time only relative to the application
+22,data_payment_default.csv,DAYS_REGISTRATION,How many days before the application did client change his registration,time only relative to the application
+23,data_payment_default.csv,DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan,time only relative to the application
+24,data_payment_default.csv,OWN_CAR_AGE,Age of client's car,
+25,data_payment_default.csv,FLAG_MOBIL,"Did client provide mobile phone (1=YES, 0=NO)",
+26,data_payment_default.csv,FLAG_EMP_PHONE,"Did client provide work phone (1=YES, 0=NO)",
+27,data_payment_default.csv,FLAG_WORK_PHONE,"Did client provide home phone (1=YES, 0=NO)",
+28,data_payment_default.csv,FLAG_CONT_MOBILE,"Was mobile phone reachable (1=YES, 0=NO)",
+29,data_payment_default.csv,FLAG_PHONE,"Did client provide home phone (1=YES, 0=NO)",
+30,data_payment_default.csv,FLAG_EMAIL,"Did client provide email (1=YES, 0=NO)",
+31,data_payment_default.csv,OCCUPATION_TYPE,What kind of occupation does the client have,
+32,data_payment_default.csv,CNT_FAM_MEMBERS,How many family members does client have,
+33,data_payment_default.csv,REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)",
+34,data_payment_default.csv,REGION_RATING_CLIENT_W_CITY,"Our rating of the region where client lives with taking city into account (1,2,3)",
+35,data_payment_default.csv,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for the loan,
+36,data_payment_default.csv,HOUR_APPR_PROCESS_START,Approximately at what hour did the client apply for the loan,rounded
+37,data_payment_default.csv,REG_REGION_NOT_LIVE_REGION,"Flag if client's permanent address does not match contact address (1=different, 0=same, at region level)",
+38,data_payment_default.csv,REG_REGION_NOT_WORK_REGION,"Flag if client's permanent address does not match work address (1=different, 0=same, at region level)",
+39,data_payment_default.csv,LIVE_REGION_NOT_WORK_REGION,"Flag if client's contact address does not match work address (1=different, 0=same, at region level)",
+40,data_payment_default.csv,REG_CITY_NOT_LIVE_CITY,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)",
+41,data_payment_default.csv,REG_CITY_NOT_WORK_CITY,"Flag if client's permanent address does not match work address (1=different, 0=same, at city level)",
+42,data_payment_default.csv,LIVE_CITY_NOT_WORK_CITY,"Flag if client's contact address does not match work address (1=different, 0=same, at city level)",
+43,data_payment_default.csv,ORGANIZATION_TYPE,Type of organization where client works,
+44,data_payment_default.csv,EXT_SOURCE_1,Normalized score from external data_payment_default source,normalized
+45,data_payment_default.csv,EXT_SOURCE_2,Normalized score from external data_payment_default source,normalized
+46,data_payment_default.csv,EXT_SOURCE_3,Normalized score from external data_payment_default source,normalized
+47,data_payment_default.csv,APARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+48,data_payment_default.csv,BASEMENTAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+49,data_payment_default.csv,YEARS_BEGINEXPLUATATION_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+50,data_payment_default.csv,YEARS_BUILD_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+51,data_payment_default.csv,COMMONAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+52,data_payment_default.csv,ELEVATORS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+53,data_payment_default.csv,ENTRANCES_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+54,data_payment_default.csv,FLOORSMAX_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+55,data_payment_default.csv,FLOORSMIN_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+56,data_payment_default.csv,LANDAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+57,data_payment_default.csv,LIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+58,data_payment_default.csv,LIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+59,data_payment_default.csv,NONLIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+60,data_payment_default.csv,NONLIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+61,data_payment_default.csv,APARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+62,data_payment_default.csv,BASEMENTAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+63,data_payment_default.csv,YEARS_BEGINEXPLUATATION_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+64,data_payment_default.csv,YEARS_BUILD_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+65,data_payment_default.csv,COMMONAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+66,data_payment_default.csv,ELEVATORS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+67,data_payment_default.csv,ENTRANCES_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+68,data_payment_default.csv,FLOORSMAX_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+69,data_payment_default.csv,FLOORSMIN_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+70,data_payment_default.csv,LANDAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+71,data_payment_default.csv,LIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+72,data_payment_default.csv,LIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+73,data_payment_default.csv,NONLIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+74,data_payment_default.csv,NONLIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+75,data_payment_default.csv,APARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+76,data_payment_default.csv,BASEMENTAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+77,data_payment_default.csv,YEARS_BEGINEXPLUATATION_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+78,data_payment_default.csv,YEARS_BUILD_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+79,data_payment_default.csv,COMMONAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+80,data_payment_default.csv,ELEVATORS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+81,data_payment_default.csv,ENTRANCES_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+82,data_payment_default.csv,FLOORSMAX_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+83,data_payment_default.csv,FLOORSMIN_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+84,data_payment_default.csv,LANDAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+85,data_payment_default.csv,LIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+86,data_payment_default.csv,LIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+87,data_payment_default.csv,NONLIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+88,data_payment_default.csv,NONLIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+89,data_payment_default.csv,FONDKAPREMONT_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+90,data_payment_default.csv,HOUSETYPE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+91,data_payment_default.csv,TOTALAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+92,data_payment_default.csv,WALLSMATERIAL_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+93,data_payment_default.csv,EMERGENCYSTATE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized
+94,data_payment_default.csv,OBS_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 30 DPD (days past due) default,
+95,data_payment_default.csv,DEF_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 30 DPD (days past due) ,
+96,data_payment_default.csv,OBS_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 60 DPD (days past due) default,
+97,data_payment_default.csv,DEF_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 60 (days past due) DPD,
+98,data_payment_default.csv,DAYS_LAST_PHONE_CHANGE,How many days before application did client change phone,
+99,data_payment_default.csv,FLAG_DOCUMENT_2,Did client provide document 2,
+100,data_payment_default.csv,FLAG_DOCUMENT_3,Did client provide document 3,
+101,data_payment_default.csv,FLAG_DOCUMENT_4,Did client provide document 4,
+102,data_payment_default.csv,FLAG_DOCUMENT_5,Did client provide document 5,
+103,data_payment_default.csv,FLAG_DOCUMENT_6,Did client provide document 6,
+104,data_payment_default.csv,FLAG_DOCUMENT_7,Did client provide document 7,
+105,data_payment_default.csv,FLAG_DOCUMENT_8,Did client provide document 8,
+106,data_payment_default.csv,FLAG_DOCUMENT_9,Did client provide document 9,
+107,data_payment_default.csv,FLAG_DOCUMENT_10,Did client provide document 10,
+108,data_payment_default.csv,FLAG_DOCUMENT_11,Did client provide document 11,
+109,data_payment_default.csv,FLAG_DOCUMENT_12,Did client provide document 12,
+110,data_payment_default.csv,FLAG_DOCUMENT_13,Did client provide document 13,
+111,data_payment_default.csv,FLAG_DOCUMENT_14,Did client provide document 14,
+112,data_payment_default.csv,FLAG_DOCUMENT_15,Did client provide document 15,
+113,data_payment_default.csv,FLAG_DOCUMENT_16,Did client provide document 16,
+114,data_payment_default.csv,FLAG_DOCUMENT_17,Did client provide document 17,
+115,data_payment_default.csv,FLAG_DOCUMENT_18,Did client provide document 18,
+116,data_payment_default.csv,FLAG_DOCUMENT_19,Did client provide document 19,
+117,data_payment_default.csv,FLAG_DOCUMENT_20,Did client provide document 20,
+118,data_payment_default.csv,FLAG_DOCUMENT_21,Did client provide document 21,
+119,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_HOUR,Number of enquiries to Credit Bureau about the client one hour before application,
+120,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_DAY,Number of enquiries to Credit Bureau about the client one day before application (excluding one hour before application),
+121,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_WEEK,Number of enquiries to Credit Bureau about the client one week before application (excluding one day before application),
+122,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_MON,Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application),
+123,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_QRT,Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application),
+124,data_payment_default.csv,AMT_REQ_CREDIT_BUREAU_YEAR,Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application),
